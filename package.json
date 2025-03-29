@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "fictional-voyage-theme",
+=======
+  "name": "fictional-university-theme",
+>>>>>>> new-branch-name
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
