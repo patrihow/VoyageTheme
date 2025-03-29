@@ -8,7 +8,7 @@
   <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
-          <a href="#" class="logo">
+          <a href="<?php echo site_url() ?>" class="logo">
             <img src="images/logo-blanc.png" alt="Logo Traveli">
             Club de <strong>Voyage</strong>
           </a>
@@ -18,6 +18,7 @@
         <div class="site-header__menu group">
           <nav class="main-navigation">
             <ul>
+            <li><a href="<?php echo site_url('/a-propos-de-nous') ?>">À propos de nous</a></li>
               <li><a href="#">Aventure</a></li>
               <li><a href="#">Croisière</a></li>
               <li><a href="#">Culturel</a></li>

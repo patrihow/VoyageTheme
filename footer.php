@@ -5,10 +5,10 @@
         <div class="group">
           <div class="site-footer__col-one">
             <h1 class="school-logo-text school-logo-text--alt-color">
-              <a href="#">Club de <strong>Voyage</strong></a>
+              <a href="<?php echo site_url() ?>">Club de <strong>Voyage</strong></a>
             </h1>
-            <p><a class="site-footer__link" href="#">+51 222 5555</a></p>
-            
+            <p><a class="site-footer__link" href="<?php echo site_url('/a-propos-de-nous') ?>">À propos de nous</a></p>
+
           </div>
 
           <div class="site-footer__col-two-three-group">
